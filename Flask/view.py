@@ -78,7 +78,7 @@ class WorkerList(Resource):
             }
 
 
-'''show (1)! one of all Deportments'''
+'''show (1)! one of all Deportments '''
 
 class Department(Resource):
     def get(self, department_id=None):
