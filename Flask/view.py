@@ -2,55 +2,19 @@ import logging
 
 from app import db, api
 from models import Workers, Dept
-from flask_restful import Resource
+from flask_restful import reqparse, abort, Resource
 from flask_json import FlaskJSON, JsonError, json_response, as_json
 
 
-class showDepts(Resource):
-    def get(self):
-        WorkersListQuery = Workers.query.all()
-        dept_names = {}
-        Dept_id = []
-        DeptListQ = Dept.query.all()
-
-        for i in range(len(DeptListQ)):
-            dept_names[DeptListQ[i].id] = DeptListQ[i].name
-            Dept_id.append(DeptListQ[i].id)
-
-        DeptList = {a: {} for a in dept_names.values()}
-
-        for id in Dept_id:
-            for number in range(len(WorkersListQuery)):
-                if id == int(WorkersListQuery[number].deptname):
-                    DeptList[dept_names[id]][WorkersListQuery[number].fullname] = {
-                         'id': WorkersListQuery[number].id,
-                         'deptname': dept_names[int(WorkersListQuery[number].deptname)],
-                         'name': WorkersListQuery[number].fullname,
-                         'salary': WorkersListQuery[number].salary
-                    }
-        return DeptList
-
-
-    #      EXAMPLE____
-
-    #
-    # def delete(self, todo_id):
-    #     abort_if_todo_doesnt_exist(todo_id)
-    #     del TODOS[todo_id]
-    #     return '', 204
-    #
-    # def put(self, todo_id):
-    #     args = parser.parse_args()
-    #     task = {'task': args['task']}
-    #     TODOS[todo_id] = task
-    #     return task, 201
-    #
-
-
-####################################################
-####################################################
-
 ''' show all Departments'''
+
+parser = reqparse.RequestParser()
+parser.add_argument('department')
+parser.add_argument('name')
+parser.add_argument('birthday')
+parser.add_argument('department_id')
+parser.add_argument('salary')
+
 
 class DepartmentList(Resource):
     def get(self):
@@ -63,7 +27,17 @@ class DepartmentList(Resource):
 
     # add Department
     def post(self):
-        pass
+        logging.info("start POST")
+        args = parser.parse_args()
+
+        logging.info("start POST , args : "+args['department'])
+        print(args['department'])
+        logging.info("end POST")
+
+        department_add = Dept(name=args['department'])
+        db.session.add(department_add)
+        db.session.commit()
+        return {'add Deportment: ': args['department']}
 
 
 class WorkerList(Resource):
@@ -74,15 +48,32 @@ class WorkerList(Resource):
         for id in range(len(worker_all)):
             worker_list[str(id+1)] = {
                 'name': worker_all[id].fullname,
-                'Department': Department.get(self, worker_all[id].deptname)['name'],
+                'Department': Department.get(self, worker_all[id].deptname)['department_id'],
                 'Birthday': str(worker_all[id].birthday),
                 'Salary': worker_all[id].salary}
 
         return worker_list
 
-    # add worker
+    # add worker /
+    # curl http://127.0.0.1:5000/worker -d "name=Anton Gorodetskij" -d "birthday=1991-02-02" -d "department_id=2" -d "salary=600" -X POST -v
     def post(self):
-        pass
+        logging.info("start POST")
+        args = parser.parse_args()
+        logging.info("start POST , args : " + args['name']+" / " + args['department_id']+" / " + args['salary']+" / ")
+        logging.info("start POST , args : " + args['name'])
+        print(args['name'])
+        logging.info("end POST")
+
+        worker_add = Workers(deptname=args['department_id'], fullname=args['name'], birthday=args['birthday'], salary=args['salary'])
+        db.session.add(worker_add)
+        db.session.commit()
+        return {'add worker': {
+            'deptname': Department.get(self, args['department_id'])['name'],
+            'fullname': args['name'],
+            'birthday': args['birthday'],
+            'salary': args['salary']
+                }
+            }
 
 
 '''show (1)! one of all Deportments'''
@@ -101,21 +92,24 @@ class Department(Resource):
 
         return department_list
 
-    def delete(self, id = None):
+    def delete(self, department_id = None):
         if id:
-            department_list = {' info :': ' departmaent_id'}
-
+            logging.info("start DELETE DEPT , id : " + department_id)
+            Dept.query.filter_by(id=department_id).delete()
+            db.session.commit()
+            logging.info("save to db : " + department_id)
+            department_list = {' info. delete department :':  department_id}
         else:
-            department_list = {' info :': ' departmaent_id'}
+            department_list = {' info :': ' department_id'}
 
         return department_list
 
-    def put(self, id=None, name=None):
+    def put(self, departmaent_id=None):
         if id:
-            department_list = {' info :': ' departmaent_id'}
+            department_list = {' info :': ' department_id'}
 
         else:
-            department_list = {' info :': ' departmaent_id'}
+            department_list = {' info :': ' department_id'}
 
         return department_list
 
@@ -138,7 +132,11 @@ class Worker (Resource):
 
     def delete(self, worker_id = None):
         if id:
-            worker_list = {}
+            logging.info("start DELETE WORKER , id : " + worker_id)
+            Workers.query.filter_by(id=worker_id).delete()
+            db.session.commit()
+            logging.info("save to db : " + worker_id)
+            worker_list = {' info. delete worker :':  worker_id}
 
         else:
             worker_list = {}
