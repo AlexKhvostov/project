@@ -9,10 +9,12 @@ from flask_json import FlaskJSON, JsonError, json_response, as_json
 ''' show all Departments'''
 
 parser = reqparse.RequestParser()
+#Department
 parser.add_argument('department')
-parser.add_argument('name')
-parser.add_argument('birthday')
+#workers
 parser.add_argument('department_id')
+parser.add_argument('fullname')
+parser.add_argument('birthday')
 parser.add_argument('salary')
 
 
@@ -46,30 +48,30 @@ class WorkerList(Resource):
         worker_list = {}
         worker_all = Workers.query.all()
         for id in range(len(worker_all)):
-            worker_list[str(id+1)] = {
+            worker_list[str(worker_all[id].id)] = {
                 'name': worker_all[id].fullname,
-                'Department': Department.get(self, worker_all[id].deptname)['department_id'],
+                'Department': Department.get(self, worker_all[id].deptname)['name'],
                 'Birthday': str(worker_all[id].birthday),
                 'Salary': worker_all[id].salary}
 
         return worker_list
 
     # add worker /
-    # curl http://127.0.0.1:5000/worker -d "name=Anton Gorodetskij" -d "birthday=1991-02-02" -d "department_id=2" -d "salary=600" -X POST -v
+    # curl http://127.0.0.1:5000/worker -d "fullname=Anton Gorodetskij" -d "birthday=1991-02-02" -d "department_id=2" -d "salary=600" -X POST -v
     def post(self):
         logging.info("start POST")
         args = parser.parse_args()
-        logging.info("start POST , args : " + args['name']+" / " + args['department_id']+" / " + args['salary']+" / ")
-        logging.info("start POST , args : " + args['name'])
-        print(args['name'])
+        logging.info("start POST , args : " + args['fullname']+" / " + args['department_id']+" / " + args['salary']+" / ")
+        logging.info("start POST , args : " + args['fullname'])
+        print(args['fullname'])
         logging.info("end POST")
 
-        worker_add = Workers(deptname=args['department_id'], fullname=args['name'], birthday=args['birthday'], salary=args['salary'])
+        worker_add = Workers(deptname=args['department_id'], fullname=args['fullname'], birthday=args['birthday'], salary=args['salary'])
         db.session.add(worker_add)
         db.session.commit()
         return {'add worker': {
             'deptname': Department.get(self, args['department_id'])['name'],
-            'fullname': args['name'],
+            'fullname': args['fullname'],
             'birthday': args['birthday'],
             'salary': args['salary']
                 }
@@ -104,9 +106,18 @@ class Department(Resource):
 
         return department_list
 
-    def put(self, departmaent_id=None):
+    def put(self, department_id=None):
+        #  curl http://127.0.0.1:5000/department/13 -d "department=teacher" -X PUT -v
         if id:
-            department_list = {' info :': ' department_id'}
+            logging.info("start POST")
+            args = parser.parse_args()
+            deportment_one = Dept.query.filter_by(id=department_id).first()
+            logging.info("start put / id "+department_id+", args : " + args['department'])
+            deportment_one.name = args['department']
+            logging.info("end PUT / deportment_one : " + deportment_one.name)
+
+            db.session.commit()
+            department_list = {' edit id :': department_id}
 
         else:
             department_list = {' info :': ' department_id'}
@@ -143,11 +154,27 @@ class Worker (Resource):
 
         return worker_list
 
-    def put(self, worker_id=None, name=None, deportment=None, birthday=None, salary=None):
+    def put(self, worker_id=None):
         if id:
+            logging.info("*-*-*-*-*-* start PUT (workers)*-*-*-*-*-*-*")
+            args = parser.parse_args()
+            worker_one = Workers.query.filter_by(id=worker_id).first()
+           # logging.info("start put / id " + worker_id + ", args : " + args['department_id']+", "+ args['fullname']+", "+ args['birthday']+", "+ args['salary']+".")
+            if args['department_id']:
+                worker_one.deptname = args['department_id']
+            if args['fullname']:
+                worker_one.fullname = args['fullname']
+            if args['birthday']:
+                worker_one.birthday = args['birthday']
+            if args['salary']:
+                worker_one.salary = args['salary']
 
-            worker_list = {}
+            logging.info("end PUT / worker_one : " + worker_one.fullname)
 
+            db.session.commit()
+            worker_list = {' edit id :': worker_id}
+
+            logging.info("*-*-*-*-*-* end PUT (workers)*-*-*-*-*-*-*")
         else:
             worker_list = {}
 

@@ -1,43 +1,6 @@
-main.py[LINE:13]# DEBUG    [2019-07-01 01:01:43,460]  This is a debug message
-main.py[LINE:14]# INFO     [2019-07-01 01:01:43,460]  Informational message
-main.py[LINE:15]# ERROR    [2019-07-01 01:01:43,461]  An error has happened!
-_internal.py[LINE:122]# WARNING  [2019-07-01 01:01:43,486]   * Debugger is active!
-_internal.py[LINE:122]# INFO     [2019-07-01 01:01:43,486]   * Debugger PIN: 339-708-621
-view.py[LINE:60]# INFO     [2019-07-01 01:01:47,564]  start POST
-view.py[LINE:62]# INFO     [2019-07-01 01:01:47,565]  start POST , args : Anton Gorodetskij / 2 / 600 / 
-view.py[LINE:63]# INFO     [2019-07-01 01:01:47,565]  start POST , args : Anton Gorodetskij
-view.py[LINE:65]# INFO     [2019-07-01 01:01:47,565]  end POST
-_internal.py[LINE:122]# INFO     [2019-07-01 01:01:47,609]  127.0.0.1 - - [01/Jul/2019 01:01:47] "POST /worker HTTP/1.1" 200 -
-view.py[LINE:135]# INFO     [2019-07-01 01:02:04,926]  start DELETE WORKER , id : 14
-view.py[LINE:138]# INFO     [2019-07-01 01:02:04,932]  save to db : 14
-_internal.py[LINE:122]# INFO     [2019-07-01 01:02:04,933]  127.0.0.1 - - [01/Jul/2019 01:02:04] "DELETE /worker/14 HTTP/1.1" 200 -
-view.py[LINE:135]# INFO     [2019-07-01 01:02:09,516]  start DELETE WORKER , id : 13
-view.py[LINE:138]# INFO     [2019-07-01 01:02:09,521]  save to db : 13
-_internal.py[LINE:122]# INFO     [2019-07-01 01:02:09,523]  127.0.0.1 - - [01/Jul/2019 01:02:09] "DELETE /worker/13 HTTP/1.1" 200 -
-view.py[LINE:135]# INFO     [2019-07-01 01:02:13,760]  start DELETE WORKER , id : 12
-view.py[LINE:138]# INFO     [2019-07-01 01:02:13,764]  save to db : 12
-_internal.py[LINE:122]# INFO     [2019-07-01 01:02:13,765]  127.0.0.1 - - [01/Jul/2019 01:02:13] "DELETE /worker/12 HTTP/1.1" 200 -
-view.py[LINE:135]# INFO     [2019-07-01 01:02:17,285]  start DELETE WORKER , id : 11
-view.py[LINE:138]# INFO     [2019-07-01 01:02:17,291]  save to db : 11
-_internal.py[LINE:122]# INFO     [2019-07-01 01:02:17,292]  127.0.0.1 - - [01/Jul/2019 01:02:17] "DELETE /worker/11 HTTP/1.1" 200 -
-view.py[LINE:135]# INFO     [2019-07-01 01:02:34,012]  start DELETE WORKER , id : 17
-view.py[LINE:138]# INFO     [2019-07-01 01:02:34,015]  save to db : 17
-_internal.py[LINE:122]# INFO     [2019-07-01 01:02:34,015]  127.0.0.1 - - [01/Jul/2019 01:02:34] "DELETE /worker/17 HTTP/1.1" 200 -
-view.py[LINE:135]# INFO     [2019-07-01 01:02:39,262]  start DELETE WORKER , id : 116
-view.py[LINE:138]# INFO     [2019-07-01 01:02:39,266]  save to db : 116
-_internal.py[LINE:122]# INFO     [2019-07-01 01:02:39,267]  127.0.0.1 - - [01/Jul/2019 01:02:39] "DELETE /worker/116 HTTP/1.1" 200 -
-view.py[LINE:135]# INFO     [2019-07-01 01:02:42,646]  start DELETE WORKER , id : 16
-view.py[LINE:138]# INFO     [2019-07-01 01:02:42,648]  save to db : 16
-_internal.py[LINE:122]# INFO     [2019-07-01 01:02:42,649]  127.0.0.1 - - [01/Jul/2019 01:02:42] "DELETE /worker/16 HTTP/1.1" 200 -
-view.py[LINE:135]# INFO     [2019-07-01 01:03:04,170]  start DELETE WORKER , id : 9
-view.py[LINE:138]# INFO     [2019-07-01 01:03:04,175]  save to db : 9
-_internal.py[LINE:122]# INFO     [2019-07-01 01:03:04,175]  127.0.0.1 - - [01/Jul/2019 01:03:04] "DELETE /worker/9 HTTP/1.1" 200 -
-view.py[LINE:97]# INFO     [2019-07-01 01:03:57,118]  start DELETE DEPT , id : 17
-view.py[LINE:100]# INFO     [2019-07-01 01:03:57,123]  save to db : 17
-_internal.py[LINE:122]# INFO     [2019-07-01 01:03:57,124]  127.0.0.1 - - [01/Jul/2019 01:03:57] "DELETE /department/17 HTTP/1.1" 200 -
-view.py[LINE:97]# INFO     [2019-07-01 01:04:02,317]  start DELETE DEPT , id : 16
-view.py[LINE:100]# INFO     [2019-07-01 01:04:02,324]  save to db : 16
-_internal.py[LINE:122]# INFO     [2019-07-01 01:04:02,325]  127.0.0.1 - - [01/Jul/2019 01:04:02] "DELETE /department/16 HTTP/1.1" 200 -
-view.py[LINE:97]# INFO     [2019-07-01 01:04:07,199]  start DELETE DEPT , id : 19
-view.py[LINE:100]# INFO     [2019-07-01 01:04:07,202]  save to db : 19
-_internal.py[LINE:122]# INFO     [2019-07-01 01:04:07,203]  127.0.0.1 - - [01/Jul/2019 01:04:07] "DELETE /department/19 HTTP/1.1" 200 -
+main.py[LINE:13]# DEBUG    [2019-07-01 01:42:21,556]  This is a debug message
+main.py[LINE:14]# INFO     [2019-07-01 01:42:21,556]  Informational message
+main.py[LINE:15]# ERROR    [2019-07-01 01:42:21,556]  An error has happened!
+_internal.py[LINE:122]# WARNING  [2019-07-01 01:42:21,583]   * Debugger is active!
+_internal.py[LINE:122]# INFO     [2019-07-01 01:42:21,584]   * Debugger PIN: 339-708-621
+_internal.py[LINE:122]# INFO     [2019-07-01 01:42:24,354]  127.0.0.1 - - [01/Jul/2019 01:42:24] "GET /worker HTTP/1.1" 200 -
