@@ -15,7 +15,6 @@ logging.info("Informational message")
 logging.error("An error has happened!")
 
 
-
 # код для запуска сервиса
 if __name__ == '__main__':
     app.run()
