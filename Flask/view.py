@@ -120,7 +120,7 @@ class Department(Resource):
         return department_list
 
 
-'''show one of all Worker'''
+'''show one of all Worker '''
 
 class Worker (Resource):
     def get(self, worker_id = None):
