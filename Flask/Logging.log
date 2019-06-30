@@ -1,6 +1,5 @@
-main.py[LINE:13]# DEBUG    [2019-07-01 01:42:21,556]  This is a debug message
-main.py[LINE:14]# INFO     [2019-07-01 01:42:21,556]  Informational message
-main.py[LINE:15]# ERROR    [2019-07-01 01:42:21,556]  An error has happened!
-_internal.py[LINE:122]# WARNING  [2019-07-01 01:42:21,583]   * Debugger is active!
-_internal.py[LINE:122]# INFO     [2019-07-01 01:42:21,584]   * Debugger PIN: 339-708-621
-_internal.py[LINE:122]# INFO     [2019-07-01 01:42:24,354]  127.0.0.1 - - [01/Jul/2019 01:42:24] "GET /worker HTTP/1.1" 200 -
+main.py[LINE:13]# DEBUG    [2019-07-01 01:47:48,648]  This is a debug message
+main.py[LINE:14]# INFO     [2019-07-01 01:47:48,648]  Informational message
+main.py[LINE:15]# ERROR    [2019-07-01 01:47:48,648]  An error has happened!
+_internal.py[LINE:122]# WARNING  [2019-07-01 01:47:48,675]   * Debugger is active!
+_internal.py[LINE:122]# INFO     [2019-07-01 01:47:48,675]   * Debugger PIN: 339-708-621
