@@ -1,0 +1,21 @@
+main.py[LINE:13]# DEBUG    [2019-06-30 14:42:15,089]  This is a debug message
+main.py[LINE:14]# INFO     [2019-06-30 14:42:15,089]  Informational message
+main.py[LINE:15]# ERROR    [2019-06-30 14:42:15,089]  An error has happened!
+_internal.py[LINE:122]# WARNING  [2019-06-30 14:42:15,115]   * Debugger is active!
+_internal.py[LINE:122]# INFO     [2019-06-30 14:42:15,115]   * Debugger PIN: 339-708-621
+_internal.py[LINE:122]# INFO     [2019-06-30 14:42:16,449]  127.0.0.1 - - [30/Jun/2019 14:42:16] "GET /worker/ HTTP/1.1" 404 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:42:23,463]  127.0.0.1 - - [30/Jun/2019 14:42:23] "GET /worker HTTP/1.1" 200 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:42:31,545]  127.0.0.1 - - [30/Jun/2019 14:42:31] "GET /workers HTTP/1.1" 404 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:42:36,666]  127.0.0.1 - - [30/Jun/2019 14:42:36] "GET /worker/ HTTP/1.1" 404 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:43:11,226]  127.0.0.1 - - [30/Jun/2019 14:43:11] "GET /worker/ HTTP/1.1" 404 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:43:29,595]  127.0.0.1 - - [30/Jun/2019 14:43:29] "GET /worker/ HTTP/1.1" 404 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:43:33,805]  127.0.0.1 - - [30/Jun/2019 14:43:33] "GET /department HTTP/1.1" 200 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:43:49,415]  127.0.0.1 - - [30/Jun/2019 14:43:49] "GET /worker HTTP/1.1" 200 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:43:57,621]  127.0.0.1 - - [30/Jun/2019 14:43:57] "GET /worker/ HTTP/1.1" 404 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:44:01,037]  127.0.0.1 - - [30/Jun/2019 14:44:01] "GET /worker/ HTTP/1.1" 404 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:45:33,933]  127.0.0.1 - - [30/Jun/2019 14:45:33] "GET /worker HTTP/1.1" 200 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:46:33,824]  127.0.0.1 - - [30/Jun/2019 14:46:33] "GET /worker HTTP/1.1" 200 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:48:15,860]  127.0.0.1 - - [30/Jun/2019 14:48:15] "GET /worker HTTP/1.1" 200 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:48:41,862]  127.0.0.1 - - [30/Jun/2019 14:48:41] "GET /worker HTTP/1.1" 200 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:49:30,350]  127.0.0.1 - - [30/Jun/2019 14:49:30] "GET /department HTTP/1.1" 200 -
+_internal.py[LINE:122]# INFO     [2019-06-30 14:50:05,860]  127.0.0.1 - - [30/Jun/2019 14:50:05] "GET /worker HTTP/1.1" 200 -
