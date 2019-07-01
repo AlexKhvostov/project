@@ -50,7 +50,6 @@ class WorkerList(Resource):
     # show all workers
     # will add filter by birthday
     #filter(and_(User.birthday >= '1988-01-17', User.birthday <= '1985-01-17'))
-
     def get(self):
         worker_list = {}
         args = parser.parse_args()
