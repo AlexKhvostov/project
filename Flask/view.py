@@ -24,6 +24,7 @@ parser.add_argument('birthday_end')
 
 class DepartmentList(Resource):
     def get(self):
+        logging.info("*-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*")
         department_list = {}
         department_all = Dept.query.all()
         for id in range(len(department_all)):
@@ -33,6 +34,7 @@ class DepartmentList(Resource):
 
     # add Department
     def post(self):
+        logging.info("*-*-*-*-*-* start POST (Department  LIST)*-*-*-*-*-*-*")
         logging.info("start POST")
         args = parser.parse_args()
 
@@ -55,9 +57,10 @@ class WorkerList(Resource):
         args = parser.parse_args()
 
         logging.info("*-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*")
-        logging.info("*-*-*-*-*-*  use filter *-*-*-*-*-*-*")
+
 
         if args['birthday_begin'] and args['birthday_end']:
+            logging.info("*-*-*-*-*-*  use filter *-*-*-*-*-*-*")
             logging.info(" - 1 if")
             logging.info("birthday_begin : " + args['birthday_begin'])
             logging.info("birthday_end : " + args['birthday_end'])
@@ -65,10 +68,12 @@ class WorkerList(Resource):
             # worker_all = Workers.query.filter((Workers.birthday >= args['birthday_begin'], Workers.birthday <= args['birthday_end'])).all()
             worker_all = Workers.query.filter((Workers.birthday.between(args['birthday_begin'], args['birthday_end']))).all()
         elif args['birthday_begin']:
+            logging.info("*-*-*-*-*-*  use filter *-*-*-*-*-*-*")
             logging.info(" - 1 elif")
             logging.info("birthday_begin : " + args['birthday_begin'])
             worker_all = Workers.query.filter(Workers.birthday >= args['birthday_begin']).all()
         elif args['birthday_end']:
+            logging.info("*-*-*-*-*-*  use filter *-*-*-*-*-*-*")
             logging.info(" - 2 elif")
             logging.info("birthday_end : " + args['birthday_end'])
             worker_all = Workers.query.filter(Workers.birthday <= args['birthday_end']).all()
@@ -78,16 +83,16 @@ class WorkerList(Resource):
         for id in range(len(worker_all)):
             worker_list[str(worker_all[id].id)] = {
                 'name': worker_all[id].fullname,
-                'Department': Department.get(self, worker_all[id].deptname)['name'],
-                'Birthday': str(worker_all[id].birthday),
-                'Salary': worker_all[id].salary}
+                'department': Department.get(self, worker_all[id].deptname)['name'],
+                'birthday': str(worker_all[id].birthday),
+                'salary': worker_all[id].salary}
 
         return worker_list
 
     # add worker /
     # curl http://127.0.0.1:5000/worker -d "fullname=Anton Gorodetskij" -d "birthday=1991-02-02" -d "department_id=2" -d "salary=600" -X POST -v
     def post(self):
-        logging.info("start POST")
+        logging.info("*-*-*-*-*-* start POST (workers_ LIST)*-*-*-*-*-*-*")
         args = parser.parse_args()
         logging.info("start POST , args : " + args['fullname']+" / " + args['department_id']+" / " + args['salary']+" / ")
         logging.info("start POST , args : " + args['fullname'])
@@ -110,6 +115,7 @@ class WorkerList(Resource):
 
 class Department(Resource):
     def get(self, department_id=None):
+        logging.info("*-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*")
         department_one = Dept.query.filter_by(id=department_id).first()
         if id:
             department_list = {'id': department_id,
@@ -137,7 +143,7 @@ class Department(Resource):
     def put(self, department_id=None):
         #  curl http://127.0.0.1:5000/department/13 -d "department=teacher" -X PUT -v
         if id:
-            logging.info("start POST")
+            logging.info("start PUT")
             args = parser.parse_args()
             deportment_one = Dept.query.filter_by(id=department_id).first()
             logging.info("start put / id "+department_id+", args : " + args['department'])
@@ -157,13 +163,14 @@ class Department(Resource):
 
 class Worker (Resource):
     def get(self, worker_id = None):
+        logging.info("*-*-*-*-*-* start GET (Worker  LIST)*-*-*-*-*-*-*")
         worker_one = Workers.query.filter_by(id=worker_id).first()
         if id:
             worker_list = {'id': worker_id,
                           'name': worker_one.fullname,
-                          'Department': Department.get(self, worker_one.deptname)['name'],
-                          'Birthday': str(worker_one.birthday),
-                          'Salary': worker_one.salary}
+                          'department': Department.get(self, worker_one.deptname)['name'],
+                          'birthday': str(worker_one.birthday),
+                          'salary': worker_one.salary}
         else:
             worker_list = {' info :': ' error - invalid  worker_id or no worker_id'}
 
