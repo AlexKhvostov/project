@@ -1,24 +1,5 @@
-main.py[LINE:13]# DEBUG    [2019-07-01 10:03:07,106]  This is a debug message
-main.py[LINE:14]# INFO     [2019-07-01 10:03:07,106]  Informational message
-main.py[LINE:15]# ERROR    [2019-07-01 10:03:07,106]  An error has happened!
-_internal.py[LINE:122]# WARNING  [2019-07-01 10:03:07,157]   * Debugger is active!
-_internal.py[LINE:122]# INFO     [2019-07-01 10:03:07,158]   * Debugger PIN: 292-824-552
-view.py[LINE:58]# INFO     [2019-07-01 10:03:09,870]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:59]# INFO     [2019-07-01 10:03:09,870]  *-*-*-*-*-*  use filter *-*-*-*-*-*-*
-view.py[LINE:62]# INFO     [2019-07-01 10:03:09,870]   - 1 if
-view.py[LINE:63]# INFO     [2019-07-01 10:03:09,870]  birthday_begin : 1990-01-01
-view.py[LINE:64]# INFO     [2019-07-01 10:03:09,870]  birthday_end : 1992-01-01
-_internal.py[LINE:122]# INFO     [2019-07-01 10:03:09,982]  127.0.0.1 - - [01/Jul/2019 10:03:09] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:58]# INFO     [2019-07-01 10:03:20,554]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:59]# INFO     [2019-07-01 10:03:20,555]  *-*-*-*-*-*  use filter *-*-*-*-*-*-*
-view.py[LINE:69]# INFO     [2019-07-01 10:03:20,555]   - 1 elif
-view.py[LINE:70]# INFO     [2019-07-01 10:03:20,555]  birthday_begin : 1990-01-01
-_internal.py[LINE:122]# INFO     [2019-07-01 10:03:20,587]  127.0.0.1 - - [01/Jul/2019 10:03:20] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:58]# INFO     [2019-07-01 10:03:23,572]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:59]# INFO     [2019-07-01 10:03:23,572]  *-*-*-*-*-*  use filter *-*-*-*-*-*-*
-view.py[LINE:73]# INFO     [2019-07-01 10:03:23,572]   - 2 elif
-view.py[LINE:74]# INFO     [2019-07-01 10:03:23,573]  birthday_end : 1990-01-01
-_internal.py[LINE:122]# INFO     [2019-07-01 10:03:23,594]  127.0.0.1 - - [01/Jul/2019 10:03:23] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:58]# INFO     [2019-07-01 10:03:33,647]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:59]# INFO     [2019-07-01 10:03:33,647]  *-*-*-*-*-*  use filter *-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-01 10:03:33,688]  127.0.0.1 - - [01/Jul/2019 10:03:33] "GET /worker HTTP/1.1" 200 -
+main.py[LINE:13]# DEBUG    [2019-07-01 10:05:46,990]  This is a debug message
+main.py[LINE:14]# INFO     [2019-07-01 10:05:46,991]  Informational message
+main.py[LINE:15]# ERROR    [2019-07-01 10:05:46,991]  An error has happened!
+_internal.py[LINE:122]# WARNING  [2019-07-01 10:05:47,058]   * Debugger is active!
+_internal.py[LINE:122]# INFO     [2019-07-01 10:05:47,060]   * Debugger PIN: 292-824-552
