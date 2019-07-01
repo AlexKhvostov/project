@@ -16,6 +16,10 @@ parser.add_argument('department_id')
 parser.add_argument('fullname')
 parser.add_argument('birthday')
 parser.add_argument('salary')
+#filter by birthay
+parser.add_argument('birthday_begin')
+parser.add_argument('birthday_end')
+
 
 
 class DepartmentList(Resource):
@@ -23,7 +27,7 @@ class DepartmentList(Resource):
         department_list = {}
         department_all = Dept.query.all()
         for id in range(len(department_all)):
-            department_list[str(id+1)] = {'name': department_all[id].name}
+            department_list[department_all[id].id] = {'name': department_all[id].name}
 
         return department_list
 
@@ -44,9 +48,34 @@ class DepartmentList(Resource):
 
 class WorkerList(Resource):
     # show all workers
+    # will add filter by birthday
+    #filter(and_(User.birthday >= '1988-01-17', User.birthday <= '1985-01-17'))
+
     def get(self):
         worker_list = {}
-        worker_all = Workers.query.all()
+        args = parser.parse_args()
+
+        logging.info("*-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*")
+        logging.info("*-*-*-*-*-*  use filter *-*-*-*-*-*-*")
+
+        if args['birthday_begin'] and args['birthday_end']:
+            logging.info(" - 1 if")
+            logging.info("birthday_begin : " + args['birthday_begin'])
+            logging.info("birthday_end : " + args['birthday_end'])
+
+            # worker_all = Workers.query.filter((Workers.birthday >= args['birthday_begin'], Workers.birthday <= args['birthday_end'])).all()
+            worker_all = Workers.query.filter((Workers.birthday.between(args['birthday_begin'], args['birthday_end']))).all()
+        elif args['birthday_begin']:
+            logging.info(" - 1 elif")
+            logging.info("birthday_begin : " + args['birthday_begin'])
+            worker_all = Workers.query.filter(Workers.birthday >= args['birthday_begin']).all()
+        elif args['birthday_end']:
+            logging.info(" - 2 elif")
+            logging.info("birthday_end : " + args['birthday_end'])
+            worker_all = Workers.query.filter(Workers.birthday <= args['birthday_end']).all()
+        else:
+            worker_all = Workers.query.all()
+
         for id in range(len(worker_all)):
             worker_list[str(worker_all[id].id)] = {
                 'name': worker_all[id].fullname,
