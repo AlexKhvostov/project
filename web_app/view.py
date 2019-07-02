@@ -6,36 +6,104 @@ import requests, logging
 
 @app.route('/', methods=['GET', 'POST', 'DELETE', 'PUT'])
 def index():
-    filtr_date = {'birthday_begin': '1950-01-01', 'birthday_end': '2020-01-01'}
+    # filter_date = {'birthday_begin': '1950-01-01', 'birthday_end': '2020-01-01'}
+    filter_date = {}
+    logging.info(" ### start index ### ")
 
+    logging.info(" ### start if POST ### ")
     # added new workers or new department
-    if request.method == 'POST':
-        logging.info(" method POST. first level ")
-        if request.form.get('fullname'):
-            logging.info("fullname :"+request.form.get('fullname'))
-            post_arguments = {'fullname': request.form.get('fullname'),
-                              'department_id': request.form.get('department_id'),
-                              'birthday': request.form.get('birthday'),
-                              'salary': request.form.get('salary')}
-            requests.post('http://127.0.0.1:5000/worker', post_arguments)
 
-        elif request.form.get('department'):
-            logging.info(" method POST. first lavel " + request.form.get('department'))
-            post_arguments = {'department': request.form.get('department')}
-            requests.post('http://127.0.0.1:5000/department', post_arguments)
+    logging.info(" ##################################### ")
+    logging.info(" ### start deferent if method =GET ### ")
 
-        elif request.form.get('worker_delete'):
-            requests.delete('http://127.0.0.1:5000/worker/'+str(request.form.get('worker_delete')))
+    if request.form.get('worker_add'):
+        logging.info("method POST.   fullname   :"+request.form.get('fullname'))
+        post_arguments = {'fullname': request.form.get('fullname'),
+                          'department_id': request.form.get('department_id'),
+                          'birthday': request.form.get('birthday'),
+                          'salary': request.form.get('salary')}
+        requests.post('http://127.0.0.1:5000/worker', post_arguments)
+    else:
+        logging.info("NOT TRUE   -    fullname         =-=  method POST. ")
 
-        elif request.form.get('department_delete'):
-            requests.delete('http://127.0.0.1:5000/department/' + str(request.form.get('department_delete')))
+    if request.form.get('department_add'):
+        logging.info(" method POST. department_add : " + request.form.get('department_add'))
+        post_arguments = {'department': request.form.get('department_add')}
+        requests.post('http://127.0.0.1:5000/department', post_arguments)
+    else:
+        logging.info("NOT TRUE   -  department_add     =-=  method POST. ")
 
+    if request.form.get('worker_delete'):
+        logging.info(" ### start if worker_delete ### ")
+        logging.info("worker_delete =-=  method DELETE. " + request.form.get('worker_delete'))
+        requests.delete('http://127.0.0.1:5000/worker/'+str(request.form.get('worker_delete')))
+    else:
+        logging.info("NOT TRUE   -  worker_delete     =-=  method DELETE. ")
+
+    if request.form.get('department_delete'):
+        logging.info(" ### start if department_delete ### ")
+        logging.info("department_delete =-=  method DELETE. " + request.form.get('department_delete'))
+        requests.delete('http://127.0.0.1:5000/department/' + str(request.form.get('department_delete')))
+    else:
+        logging.info("NOT TRUE   -  department_delete =-=  method DELETE. ")
+
+    # if request.form.get('filter_date'):
+    #     logging.info(" ### start if filter_date ### ")
+    #     logging.info("department_delete =-=  method DELETE. " + request.form.get('filter_date'))
+    #     filter_date = {'birthday_begin': str(request.form.get('birthday_begin')),
+    #                    'birthday_end'  : str(request.form.get('birthday_end'))}
+    # else:
+    #     logging.info("NOT TRUE  -  filter_date")
+
+    if request.form.get('birthday_begin'):
+        filter_date['birthday_begin'] = str(request.form.get('birthday_begin'))
+    else:
+        logging.info("NOT TRUE   -   birthday_begin   =-=  method get. ")
+
+    if request.form.get('birthday_end'):
+        filter_date['birthday_end'] = str(request.form.get('birthday_end'))
+    else:
+        logging.info("NOT TRUE   -   birthday_end     =-=  method get. ")
+
+
+
+
+    if request.form.get('department_edit'):
+        logging.info(" ### start if department_edit ### ")
+        department_edit = {'id': request.form.get('department_edit'),
+                           'department': request.form.get('department_name')}
+        requests.put('http://127.0.0.1:5000/department/'+request.form.get('department_edit'), department_edit).json()
+
+    else:
+        logging.info("NOT TRUE   -   department_edit   =-=  method put. ")
+
+    if request.form.get('worker_edit'):
+        logging.info(" ### start if   worker_edit    ### ")
+        department_edit = {'department_id': request.form.get('department'),
+                           'fullname': request.form.get('fullname'),
+                           'birthday': request.form.get('birthday'),
+                           'salary': request.form.get('salary')}
+
+        requests.put('http://127.0.0.1:5000/worker/'+request.form.get('worker_edit'), department_edit).json()
+
+    else:
+        logging.info("NOT TRUE   -   worker_edit   =-=  method put. ")
+
+
+
+
+    logging.info(" ### end all if  ### ")
 
 
 
 
     departments = requests.get('http://127.0.0.1:5000/department').json()
-    workers = requests.get('http://127.0.0.1:5000/worker', filtr_date).json()
+    if filter_date:
+        workers = requests.get('http://127.0.0.1:5000/worker', filter_date).json()
+    else:
+        workers = requests.get('http://127.0.0.1:5000/worker').json()
+
+    logging.info(" ### end index ### ")
 
     for i in departments:
         salary_sum = 0
@@ -51,7 +119,7 @@ def index():
             delta_salary = 0
         departments[i]['delta_salary'] = delta_salary
 
-    numb = range(10)
-    return render_template('index.html', name=workers, depart=departments, numb=numb)
+
+    return render_template('index.html', name=workers, depart=departments, date=filter_date)
 
 

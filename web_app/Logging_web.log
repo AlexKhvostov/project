@@ -1,10 +1,144 @@
-main.py[LINE:10]# DEBUG    [2019-07-01 16:46:28,606]  This is a debug message
-main.py[LINE:11]# INFO     [2019-07-01 16:46:28,606]  Informational message
-main.py[LINE:12]# ERROR    [2019-07-01 16:46:28,606]  An error has happened!
-_internal.py[LINE:122]# WARNING  [2019-07-01 16:46:28,630]   * Debugger is active!
-_internal.py[LINE:122]# INFO     [2019-07-01 16:46:28,631]   * Debugger PIN: 292-824-552
-connectionpool.py[LINE:206]# DEBUG    [2019-07-01 16:46:51,128]  Starting new HTTP connection (1): 127.0.0.1:5000
-connectionpool.py[LINE:396]# DEBUG    [2019-07-01 16:46:51,137]  http://127.0.0.1:5000 "GET /department HTTP/1.1" 200 406
-connectionpool.py[LINE:206]# DEBUG    [2019-07-01 16:46:51,143]  Starting new HTTP connection (1): 127.0.0.1:5000
-connectionpool.py[LINE:396]# DEBUG    [2019-07-01 16:46:51,212]  http://127.0.0.1:5000 "GET /worker?birthday_begin=1950-01-01&birthday_end=2020-01-01 HTTP/1.1" 200 1523
-_internal.py[LINE:122]# INFO     [2019-07-01 16:46:51,267]  127.0.0.1 - - [01/Jul/2019 16:46:51] "GET / HTTP/1.1" 200 -
+main.py[LINE:10]# DEBUG    [2019-07-02 13:15:46,768]  This is a debug message
+main.py[LINE:11]# INFO     [2019-07-02 13:15:46,769]  Informational message
+main.py[LINE:12]# ERROR    [2019-07-02 13:15:46,769]  An error has happened!
+_internal.py[LINE:122]# WARNING  [2019-07-02 13:15:46,804]   * Debugger is active!
+_internal.py[LINE:122]# INFO     [2019-07-02 13:15:46,805]   * Debugger PIN: 292-824-552
+view.py[LINE:11]# INFO     [2019-07-02 13:15:58,740]   ### start index ### 
+view.py[LINE:13]# INFO     [2019-07-02 13:15:58,742]   ### start if POST ### 
+view.py[LINE:16]# INFO     [2019-07-02 13:15:58,742]   ##################################### 
+view.py[LINE:17]# INFO     [2019-07-02 13:15:58,743]   ### start deferent if method =GET ### 
+view.py[LINE:27]# INFO     [2019-07-02 13:15:58,745]  NOT TRUE   -    fullname         =-=  method POST. 
+view.py[LINE:34]# INFO     [2019-07-02 13:15:58,746]  NOT TRUE   -  department_add     =-=  method POST. 
+view.py[LINE:41]# INFO     [2019-07-02 13:15:58,746]  NOT TRUE   -  worker_delete     =-=  method DELETE. 
+view.py[LINE:48]# INFO     [2019-07-02 13:15:58,746]  NOT TRUE   -  department_delete =-=  method DELETE. 
+view.py[LINE:78]# INFO     [2019-07-02 13:15:58,746]  NOT TRUE   -   department_edit   =-=  method put. 
+view.py[LINE:90]# INFO     [2019-07-02 13:15:58,746]  NOT TRUE   -   worker_edit   =-=  method put. 
+view.py[LINE:95]# INFO     [2019-07-02 13:15:58,747]   ### end all if  ### 
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:15:58,757]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:15:58,773]  http://127.0.0.1:5000 "GET /department HTTP/1.1" 200 359
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:15:58,786]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:15:58,822]  http://127.0.0.1:5000 "GET /worker?birthday_begin=1992-01-01&birthday_end=1999-01-01 HTTP/1.1" 200 406
+view.py[LINE:106]# INFO     [2019-07-02 13:15:58,823]   ### end index ### 
+_internal.py[LINE:122]# INFO     [2019-07-02 13:15:58,890]  127.0.0.1 - - [02/Jul/2019 13:15:58] "POST / HTTP/1.1" 200 -
+view.py[LINE:11]# INFO     [2019-07-02 13:16:38,535]   ### start index ### 
+view.py[LINE:13]# INFO     [2019-07-02 13:16:38,536]   ### start if POST ### 
+view.py[LINE:16]# INFO     [2019-07-02 13:16:38,536]   ##################################### 
+view.py[LINE:17]# INFO     [2019-07-02 13:16:38,536]   ### start deferent if method =GET ### 
+view.py[LINE:27]# INFO     [2019-07-02 13:16:38,537]  NOT TRUE   -    fullname         =-=  method POST. 
+view.py[LINE:34]# INFO     [2019-07-02 13:16:38,538]  NOT TRUE   -  department_add     =-=  method POST. 
+view.py[LINE:41]# INFO     [2019-07-02 13:16:38,538]  NOT TRUE   -  worker_delete     =-=  method DELETE. 
+view.py[LINE:48]# INFO     [2019-07-02 13:16:38,538]  NOT TRUE   -  department_delete =-=  method DELETE. 
+view.py[LINE:61]# INFO     [2019-07-02 13:16:38,538]  NOT TRUE   -   birthday_begin   =-=  method get. 
+view.py[LINE:66]# INFO     [2019-07-02 13:16:38,538]  NOT TRUE   -   birthday_end     =-=  method get. 
+view.py[LINE:78]# INFO     [2019-07-02 13:16:38,538]  NOT TRUE   -   department_edit   =-=  method put. 
+view.py[LINE:90]# INFO     [2019-07-02 13:16:38,538]  NOT TRUE   -   worker_edit   =-=  method put. 
+view.py[LINE:95]# INFO     [2019-07-02 13:16:38,538]   ### end all if  ### 
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:16:38,545]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:16:38,557]  http://127.0.0.1:5000 "GET /department HTTP/1.1" 200 359
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:16:38,566]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:16:38,632]  http://127.0.0.1:5000 "GET /worker HTTP/1.1" 200 1114
+view.py[LINE:106]# INFO     [2019-07-02 13:16:38,634]   ### end index ### 
+_internal.py[LINE:122]# INFO     [2019-07-02 13:16:38,636]  127.0.0.1 - - [02/Jul/2019 13:16:38] "POST / HTTP/1.1" 200 -
+view.py[LINE:11]# INFO     [2019-07-02 13:17:09,582]   ### start index ### 
+view.py[LINE:13]# INFO     [2019-07-02 13:17:09,583]   ### start if POST ### 
+view.py[LINE:16]# INFO     [2019-07-02 13:17:09,584]   ##################################### 
+view.py[LINE:17]# INFO     [2019-07-02 13:17:09,584]   ### start deferent if method =GET ### 
+view.py[LINE:20]# INFO     [2019-07-02 13:17:09,586]  method POST.   fullname   :Roman
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:17:09,605]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:17:09,649]  http://127.0.0.1:5000 "POST /worker HTTP/1.1" 200 149
+view.py[LINE:34]# INFO     [2019-07-02 13:17:09,650]  NOT TRUE   -  department_add     =-=  method POST. 
+view.py[LINE:41]# INFO     [2019-07-02 13:17:09,650]  NOT TRUE   -  worker_delete     =-=  method DELETE. 
+view.py[LINE:48]# INFO     [2019-07-02 13:17:09,650]  NOT TRUE   -  department_delete =-=  method DELETE. 
+view.py[LINE:61]# INFO     [2019-07-02 13:17:09,650]  NOT TRUE   -   birthday_begin   =-=  method get. 
+view.py[LINE:66]# INFO     [2019-07-02 13:17:09,650]  NOT TRUE   -   birthday_end     =-=  method get. 
+view.py[LINE:78]# INFO     [2019-07-02 13:17:09,650]  NOT TRUE   -   department_edit   =-=  method put. 
+view.py[LINE:90]# INFO     [2019-07-02 13:17:09,651]  NOT TRUE   -   worker_edit   =-=  method put. 
+view.py[LINE:95]# INFO     [2019-07-02 13:17:09,651]   ### end all if  ### 
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:17:09,655]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:17:09,668]  http://127.0.0.1:5000 "GET /department HTTP/1.1" 200 359
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:17:09,673]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:17:09,733]  http://127.0.0.1:5000 "GET /worker HTTP/1.1" 200 1248
+view.py[LINE:106]# INFO     [2019-07-02 13:17:09,734]   ### end index ### 
+_internal.py[LINE:122]# INFO     [2019-07-02 13:17:09,737]  127.0.0.1 - - [02/Jul/2019 13:17:09] "POST / HTTP/1.1" 200 -
+view.py[LINE:11]# INFO     [2019-07-02 13:17:35,952]   ### start index ### 
+view.py[LINE:13]# INFO     [2019-07-02 13:17:35,952]   ### start if POST ### 
+view.py[LINE:16]# INFO     [2019-07-02 13:17:35,952]   ##################################### 
+view.py[LINE:17]# INFO     [2019-07-02 13:17:35,952]   ### start deferent if method =GET ### 
+view.py[LINE:20]# INFO     [2019-07-02 13:17:35,953]  method POST.   fullname   :Petr
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:17:35,962]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:17:35,998]  http://127.0.0.1:5000 "POST /worker HTTP/1.1" 200 148
+view.py[LINE:34]# INFO     [2019-07-02 13:17:36,000]  NOT TRUE   -  department_add     =-=  method POST. 
+view.py[LINE:41]# INFO     [2019-07-02 13:17:36,001]  NOT TRUE   -  worker_delete     =-=  method DELETE. 
+view.py[LINE:48]# INFO     [2019-07-02 13:17:36,001]  NOT TRUE   -  department_delete =-=  method DELETE. 
+view.py[LINE:61]# INFO     [2019-07-02 13:17:36,001]  NOT TRUE   -   birthday_begin   =-=  method get. 
+view.py[LINE:66]# INFO     [2019-07-02 13:17:36,002]  NOT TRUE   -   birthday_end     =-=  method get. 
+view.py[LINE:78]# INFO     [2019-07-02 13:17:36,002]  NOT TRUE   -   department_edit   =-=  method put. 
+view.py[LINE:90]# INFO     [2019-07-02 13:17:36,003]  NOT TRUE   -   worker_edit   =-=  method put. 
+view.py[LINE:95]# INFO     [2019-07-02 13:17:36,003]   ### end all if  ### 
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:17:36,009]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:17:36,028]  http://127.0.0.1:5000 "GET /department HTTP/1.1" 200 359
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:17:36,039]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:17:36,119]  http://127.0.0.1:5000 "GET /worker HTTP/1.1" 200 1381
+view.py[LINE:106]# INFO     [2019-07-02 13:17:36,121]   ### end index ### 
+_internal.py[LINE:122]# INFO     [2019-07-02 13:17:36,125]  127.0.0.1 - - [02/Jul/2019 13:17:36] "POST / HTTP/1.1" 200 -
+view.py[LINE:11]# INFO     [2019-07-02 13:18:09,875]   ### start index ### 
+view.py[LINE:13]# INFO     [2019-07-02 13:18:09,875]   ### start if POST ### 
+view.py[LINE:16]# INFO     [2019-07-02 13:18:09,876]   ##################################### 
+view.py[LINE:17]# INFO     [2019-07-02 13:18:09,876]   ### start deferent if method =GET ### 
+view.py[LINE:27]# INFO     [2019-07-02 13:18:09,877]  NOT TRUE   -    fullname         =-=  method POST. 
+view.py[LINE:34]# INFO     [2019-07-02 13:18:09,877]  NOT TRUE   -  department_add     =-=  method POST. 
+view.py[LINE:41]# INFO     [2019-07-02 13:18:09,877]  NOT TRUE   -  worker_delete     =-=  method DELETE. 
+view.py[LINE:48]# INFO     [2019-07-02 13:18:09,877]  NOT TRUE   -  department_delete =-=  method DELETE. 
+view.py[LINE:61]# INFO     [2019-07-02 13:18:09,878]  NOT TRUE   -   birthday_begin   =-=  method get. 
+view.py[LINE:66]# INFO     [2019-07-02 13:18:09,878]  NOT TRUE   -   birthday_end     =-=  method get. 
+view.py[LINE:78]# INFO     [2019-07-02 13:18:09,878]  NOT TRUE   -   department_edit   =-=  method put. 
+view.py[LINE:81]# INFO     [2019-07-02 13:18:09,878]   ### start if   worker_edit    ### 
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:18:09,889]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:18:09,924]  http://127.0.0.1:5000 "PUT /worker/3 HTTP/1.1" 200 26
+view.py[LINE:95]# INFO     [2019-07-02 13:18:09,927]   ### end all if  ### 
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:18:09,934]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:18:09,950]  http://127.0.0.1:5000 "GET /department HTTP/1.1" 200 359
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:18:09,957]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:18:10,020]  http://127.0.0.1:5000 "GET /worker HTTP/1.1" 200 1375
+view.py[LINE:106]# INFO     [2019-07-02 13:18:10,021]   ### end index ### 
+_internal.py[LINE:122]# INFO     [2019-07-02 13:18:10,024]  127.0.0.1 - - [02/Jul/2019 13:18:10] "POST / HTTP/1.1" 200 -
+view.py[LINE:11]# INFO     [2019-07-02 13:24:18,952]   ### start index ### 
+view.py[LINE:13]# INFO     [2019-07-02 13:24:18,953]   ### start if POST ### 
+view.py[LINE:16]# INFO     [2019-07-02 13:24:18,954]   ##################################### 
+view.py[LINE:17]# INFO     [2019-07-02 13:24:18,954]   ### start deferent if method =GET ### 
+view.py[LINE:27]# INFO     [2019-07-02 13:24:18,954]  NOT TRUE   -    fullname         =-=  method POST. 
+view.py[LINE:34]# INFO     [2019-07-02 13:24:18,955]  NOT TRUE   -  department_add     =-=  method POST. 
+view.py[LINE:41]# INFO     [2019-07-02 13:24:18,955]  NOT TRUE   -  worker_delete     =-=  method DELETE. 
+view.py[LINE:48]# INFO     [2019-07-02 13:24:18,955]  NOT TRUE   -  department_delete =-=  method DELETE. 
+view.py[LINE:61]# INFO     [2019-07-02 13:24:18,955]  NOT TRUE   -   birthday_begin   =-=  method get. 
+view.py[LINE:66]# INFO     [2019-07-02 13:24:18,955]  NOT TRUE   -   birthday_end     =-=  method get. 
+view.py[LINE:78]# INFO     [2019-07-02 13:24:18,955]  NOT TRUE   -   department_edit   =-=  method put. 
+view.py[LINE:81]# INFO     [2019-07-02 13:24:18,955]   ### start if   worker_edit    ### 
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:24:18,961]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:24:18,996]  http://127.0.0.1:5000 "PUT /worker/3 HTTP/1.1" 200 26
+view.py[LINE:95]# INFO     [2019-07-02 13:24:18,997]   ### end all if  ### 
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:24:19,003]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:24:19,019]  http://127.0.0.1:5000 "GET /department HTTP/1.1" 200 359
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:24:19,028]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:24:19,114]  http://127.0.0.1:5000 "GET /worker HTTP/1.1" 200 1375
+view.py[LINE:106]# INFO     [2019-07-02 13:24:19,116]   ### end index ### 
+_internal.py[LINE:122]# INFO     [2019-07-02 13:24:19,158]  127.0.0.1 - - [02/Jul/2019 13:24:19] "POST / HTTP/1.1" 200 -
+view.py[LINE:11]# INFO     [2019-07-02 13:25:50,766]   ### start index ### 
+view.py[LINE:13]# INFO     [2019-07-02 13:25:50,769]   ### start if POST ### 
+view.py[LINE:16]# INFO     [2019-07-02 13:25:50,770]   ##################################### 
+view.py[LINE:17]# INFO     [2019-07-02 13:25:50,770]   ### start deferent if method =GET ### 
+view.py[LINE:27]# INFO     [2019-07-02 13:25:50,771]  NOT TRUE   -    fullname         =-=  method POST. 
+view.py[LINE:34]# INFO     [2019-07-02 13:25:50,772]  NOT TRUE   -  department_add     =-=  method POST. 
+view.py[LINE:41]# INFO     [2019-07-02 13:25:50,772]  NOT TRUE   -  worker_delete     =-=  method DELETE. 
+view.py[LINE:48]# INFO     [2019-07-02 13:25:50,772]  NOT TRUE   -  department_delete =-=  method DELETE. 
+view.py[LINE:61]# INFO     [2019-07-02 13:25:50,772]  NOT TRUE   -   birthday_begin   =-=  method get. 
+view.py[LINE:66]# INFO     [2019-07-02 13:25:50,772]  NOT TRUE   -   birthday_end     =-=  method get. 
+view.py[LINE:78]# INFO     [2019-07-02 13:25:50,773]  NOT TRUE   -   department_edit   =-=  method put. 
+view.py[LINE:90]# INFO     [2019-07-02 13:25:50,773]  NOT TRUE   -   worker_edit   =-=  method put. 
+view.py[LINE:95]# INFO     [2019-07-02 13:25:50,773]   ### end all if  ### 
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:25:50,779]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:25:50,847]  http://127.0.0.1:5000 "GET /department HTTP/1.1" 200 359
+connectionpool.py[LINE:206]# DEBUG    [2019-07-02 13:25:50,858]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-02 13:25:50,937]  http://127.0.0.1:5000 "GET /worker HTTP/1.1" 200 1375
+view.py[LINE:106]# INFO     [2019-07-02 13:25:50,940]   ### end index ### 
+_internal.py[LINE:122]# INFO     [2019-07-02 13:25:50,979]  127.0.0.1 - - [02/Jul/2019 13:25:50] "GET / HTTP/1.1" 200 -

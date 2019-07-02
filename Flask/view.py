@@ -116,20 +116,24 @@ class WorkerList(Resource):
 class Department(Resource):
     def get(self, department_id=None):
         logging.info("*-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*")
-        department_one = Dept.query.filter_by(id=department_id).first()
-        if id:
-            department_list = {'id': department_id,
-                               'name': department_one.name}
 
-            # department_list = department_list = { ' info :': {' departmaent_id': department_id}}
+        if department_id:
+            department_one = Dept.query.filter_by(id=department_id).first()
+            department_list = {'id': department_id, 'name': "- not found"}
+            if department_one:
+                logging.info("*-*-*-*-*-*  "+str(department_one)+"  *-*-*-*-*-*-*")
+                logging.info("*-*-*-*-*-  department_id- good  -*-*-*-*-*-*")
+                department_list = {'id': department_id, 'name': department_one.name}
 
         else:
-            department_list = {' info :': ' error - no departmaent_id'}
+            logging.info("*-*-*-*-*-  department_id- not found  -*-*-*-*-*-*")
+            department_list = {'id': department_id,
+                               'name': "department_id- not found"}
 
         return department_list
 
     def delete(self, department_id = None):
-        if id:
+        if department_id:
             logging.info("start DELETE DEPT , id : " + department_id)
             Dept.query.filter_by(id=department_id).delete()
             db.session.commit()
@@ -142,7 +146,7 @@ class Department(Resource):
 
     def put(self, department_id=None):
         #  curl http://127.0.0.1:5000/department/13 -d "department=teacher" -X PUT -v
-        if id:
+        if department_id:
             logging.info("start PUT")
             args = parser.parse_args()
             deportment_one = Dept.query.filter_by(id=department_id).first()
