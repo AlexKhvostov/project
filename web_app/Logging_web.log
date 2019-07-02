@@ -1,0 +1,10 @@
+main.py[LINE:10]# DEBUG    [2019-07-01 16:46:28,606]  This is a debug message
+main.py[LINE:11]# INFO     [2019-07-01 16:46:28,606]  Informational message
+main.py[LINE:12]# ERROR    [2019-07-01 16:46:28,606]  An error has happened!
+_internal.py[LINE:122]# WARNING  [2019-07-01 16:46:28,630]   * Debugger is active!
+_internal.py[LINE:122]# INFO     [2019-07-01 16:46:28,631]   * Debugger PIN: 292-824-552
+connectionpool.py[LINE:206]# DEBUG    [2019-07-01 16:46:51,128]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-01 16:46:51,137]  http://127.0.0.1:5000 "GET /department HTTP/1.1" 200 406
+connectionpool.py[LINE:206]# DEBUG    [2019-07-01 16:46:51,143]  Starting new HTTP connection (1): 127.0.0.1:5000
+connectionpool.py[LINE:396]# DEBUG    [2019-07-01 16:46:51,212]  http://127.0.0.1:5000 "GET /worker?birthday_begin=1950-01-01&birthday_end=2020-01-01 HTTP/1.1" 200 1523
+_internal.py[LINE:122]# INFO     [2019-07-01 16:46:51,267]  127.0.0.1 - - [01/Jul/2019 16:46:51] "GET / HTTP/1.1" 200 -
