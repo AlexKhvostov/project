@@ -59,7 +59,12 @@ def index():
         logging.info(" ### start if department_edit ### ")
         department_edit = {'id': request.form.get('department_edit'),
                            'department': request.form.get('department_name')}
-        requests.put('http://127.0.0.1:5000/department/'+request.form.get('department_edit'), department_edit).json()
+        resp = requests.put('http://127.0.0.1:5000/department/'+request.form.get('department_edit'), department_edit).json()
+        #
+        # if resp.status == 500:
+        #     sadfsakdjfksajfdlk
+        # else:
+        #     ssdfsdfsaf
     else:
         logging.info("NOT TRUE   -   department_edit   =-=  method put. ")
 

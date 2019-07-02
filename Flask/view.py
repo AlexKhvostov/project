@@ -1,4 +1,6 @@
 import logging
+import json
+from flask import Response
 
 from app import db, api
 from models import Workers, Dept
@@ -154,13 +156,16 @@ class Department(Resource):
             deportment_one.name = args['department']
             logging.info("end PUT / deportment_one : " + deportment_one.name)
 
-            db.session.commit()
+            try:
+                db.session.commit()
+            except Exception as ex:
+                return Response(f'interval {ex!r}', status=500)
             department_list = {' edit id :': department_id}
 
         else:
             department_list = {' info :': ' department_id'}
 
-        return department_list
+        return Response(json.dumps(department_list), status=200)
 
 
 '''show one of all Worker '''
