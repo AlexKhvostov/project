@@ -7,38 +7,22 @@
 {% endblock %}
 
 
-
-
 {% block content_title %}
     База отделов и сотрудников :
 {% endblock %}
 
 
-
-
-
-
 {% block content %}
     <div class="col-md-4">
-
         <table  class="table table-sm table-hover table-striped table-bordered" >
             <h3>Отделы : </h3>
             <thead class="thead-dark">
             <tr>
-                <th scope="col">
-                    №:
-                </th>
-                <th scope="col">
-                    Отдел:
-                </th>
-                <th scope="col">
-                    Средняя зп:
-                </th>
-                <th>
-                </th>
-                <th>
-                </th>
-
+                <th scope="col">№:</th>
+                <th scope="col">Отдел:</th>
+                <th scope="col">Средняя зп:</th>
+                <th></th>
+                <th></th>
             </tr>
             </thead>
             {% for idd in depart %}
@@ -47,7 +31,6 @@
                         <td>
                             {{ idd }}:
                         </td>
-
                         <td>
                             <input name="department_name" type="text" size="10" value={{ depart[idd]['name'] }} >
                         </td>
@@ -56,105 +39,65 @@
                             <input disabled type="text" size="4" value= {{ depart[idd]['delta_salary'] }} >
                         </td>
                         <th>
-                            <button name="department_edit" value="{{ idd }}" type="submit" class="btn btn- btn-sm">v</button>
+                            <button name="department_edit" value="{{ idd }}" type="submit" class="btn btn-success btn-sm">v</button>
                         </th>
                     </form>
                         <th>
                             <form method="POST" name = {{ id }}>
                                 <button name="department_delete" value="{{ idd }}" type="submit" class="btn btn-danger btn-sm">x</button>
                             </form>
-
                         </th>
                 </tr>
-
             {%   endfor %}
-            <tr class="table-dark">
-                <td>
-
-                </td>
-                <td>
-
-                </td>
-                <td>
-
-                </td>
-                <td>
-
-                </td>
+            <tr  style="color: slategray">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr >
             <form  method="POST">
                 <tr class="table-dark">
-                    <td>
-
-                    </td>
-
+                    <td> + </td>
                     <td>
                         <input id=1  name="department_add" type="text" size="10" placeholder="new name" >
                     </td>
-
                     <td>
-                        <button  type="submit" class="btn btn-sm">add</button>
+                        <button  type="submit" class="btn btn-primary btn-sm">add</button>
                     </td>
                 </tr>
-
             </form>
-
         </table>
-
     </div>
-
     <div class="col-md-8">
 
         <table  class="table table-sm table-hover table-striped table-bordered" >
             <form name="birthday_filter"  method="POST">
                 <tr>
-
-                    <td> <h3>Сотрудники: </h3></td>
-
-                    <td> ДР  </td>
+                    <td><h3>Сотрудники: </h3></td>
+                    <td>ДР</td>
                     <td>с:<br> <input type="date" name="birthday_begin" min="1950-01-01" max="2010-01-01"  size="8" value="{{ date['birthday_begin'] }}"/> </td>
-                    <td> по: <br> <input type="date" name="birthday_end" min="1950-01-01" max="2010-01-01"  size="8"  value="{{ date['birthday_end'] }}" /> </td>
-                    <td> <button type="submit" class="btn btn-sm" name="filter_date" value="filter_date_button">поиск</button> </td>
-
+                    <td>по:<br> <input type="date" name="birthday_end" min="1950-01-01" max="2010-01-01"  size="8"  value="{{ date['birthday_end'] }}" /> </td>
+                    <td><button type="submit" class="btn btn-warning btn-sm" name="filter_date" value="filter_date_button">поиск</button> </td>
                 </tr>
             </form>
         </table>
-
         <table  class="table table-sm table-hover table-striped table-bordered" >
             <thead class="thead-dark">
             <tr>
-                <th scope="col">
-                    №:
-                </th>
-                <th scope="col">
-                    Имя:
-                </th>
-                <th scope="col">
-                    Отдел:
-                </th>
-                <th scope="col">
-                    Д.р.:
-
-                </th>
-                <th scope="col">
-                    зп:
-                </th>
-                <th scope="col" >
-
-                </th>
-                <th scope="col" >
-
-                </th>
-
+                <th scope="col">№:</th>
+                <th scope="col">Имя:</th>
+                <th scope="col">Отдел:</th>
+                <th scope="col">Д.р.:</th>
+                <th scope="col">зп:</th>
+                <th scope="col" ></th>
+                <th scope="col" ></th>
             </tr>
             </thead>
-
             {% for id in name %}
                 <tr>
                     <form method="POST" name = "Worker_edit">
                         <th>
                             {{ id }}
-
                         </th>
                         <th>
                             <input name="fullname" type="text" size="10" value= {{ name[id]['name'] }} >
@@ -178,47 +121,28 @@
                         </th>
                         <th>
 
-                            <button name="worker_edit" value="{{ id }}" type="submit" class="btn btn- btn-sm">v</button>
-
-
+                            <button name="worker_edit" value="{{ id }}" type="submit" class="btn btn-success btn-sm">v</button>
                         </th>
                     </form>
                     <th>
                         <form method="POST" name = {{ id }}>
                             <button type="submit" name="worker_delete" value="{{ id }}" class="btn btn-danger btn-sm">x</button>
                         </form>
-
                     </th>
                 </tr>
             {% endfor %}
-            <tr class="bg-primary">
-                <th>
-
-                </th>
-                <th>
-
-                </th>
-                <th>
-
-                </th>
-                <th>
-
-                </th>
-                <th>
-
-                </th>
-                <th>
-
-                </th>
-                <th>
-
-                </th>
+            <tr style="color: slategray">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
             </tr>
             <form  method="POST">
                 <tr class="table-dark">
-                    <th>
-
-                    </th>
+                    <th> + </th>
                     <th>
                         <input name="fullname" type="text" size="10" placeholder= "new name" >
                     </th>
@@ -236,17 +160,13 @@
                     <th>
                         <input name="salary" type="text" size="4" placeholder= "1200">
                     </th>
-                    <th>
-                        <button name="worker_add" value="worker_add" type="submit" class="btn btn-sm">add</button>
+                    <th colspan="2">
+                        <button name="worker_add" value="worker_add" type="submit" class="btn btn-primary btn-sm">add</button>
                     </th>
-                    <th>
 
-
-                    </th>
                 </tr>
             </form>
         </table>
-
     </div>
 {% endblock %}
 

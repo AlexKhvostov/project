@@ -1,17 +1,15 @@
+import requests
+import logging
+
 from app import app
-from flask import render_template, request, Flask, jsonify
-from flask_restful import reqparse, abort, Resource
-import requests, logging
+from flask import render_template, request
 
 
-@app.route('/', methods=['GET', 'POST', 'DELETE', 'PUT'])
+@app.route('/', methods=['GET', 'POST'])
 def index():
     # filter_date = {'birthday_begin': '1950-01-01', 'birthday_end': '2020-01-01'}
     filter_date = {}
     logging.info(" ### start index ### ")
-
-    logging.info(" ### start if POST ### ")
-    # added new workers or new department
 
     logging.info(" ##################################### ")
     logging.info(" ### start deferent if method =GET ### ")
@@ -47,14 +45,6 @@ def index():
     else:
         logging.info("NOT TRUE   -  department_delete =-=  method DELETE. ")
 
-    # if request.form.get('filter_date'):
-    #     logging.info(" ### start if filter_date ### ")
-    #     logging.info("department_delete =-=  method DELETE. " + request.form.get('filter_date'))
-    #     filter_date = {'birthday_begin': str(request.form.get('birthday_begin')),
-    #                    'birthday_end'  : str(request.form.get('birthday_end'))}
-    # else:
-    #     logging.info("NOT TRUE  -  filter_date")
-
     if request.form.get('birthday_begin'):
         filter_date['birthday_begin'] = str(request.form.get('birthday_begin'))
     else:
@@ -65,15 +55,11 @@ def index():
     else:
         logging.info("NOT TRUE   -   birthday_end     =-=  method get. ")
 
-
-
-
     if request.form.get('department_edit'):
         logging.info(" ### start if department_edit ### ")
         department_edit = {'id': request.form.get('department_edit'),
                            'department': request.form.get('department_name')}
         requests.put('http://127.0.0.1:5000/department/'+request.form.get('department_edit'), department_edit).json()
-
     else:
         logging.info("NOT TRUE   -   department_edit   =-=  method put. ")
 
@@ -89,13 +75,7 @@ def index():
     else:
         logging.info("NOT TRUE   -   worker_edit   =-=  method put. ")
 
-
-
-
     logging.info(" ### end all if  ### ")
-
-
-
 
     departments = requests.get('http://127.0.0.1:5000/department').json()
     if filter_date:
@@ -118,8 +98,20 @@ def index():
         else:
             delta_salary = 0
         departments[i]['delta_salary'] = delta_salary
-
-
     return render_template('index.html', name=workers, depart=departments, date=filter_date)
 
 
+def item_add():
+    pass
+
+
+def item_edit():
+    pass
+
+
+def item_del():
+    pass
+
+
+def item_show():
+    pass

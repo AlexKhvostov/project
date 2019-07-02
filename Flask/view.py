@@ -220,9 +220,6 @@ class Worker (Resource):
         return worker_list
 
 
-#
-########## адреса запросов url_for
-#
 
 # show list and add new item
 api.add_resource(DepartmentList, '/department')

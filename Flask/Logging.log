@@ -1,414 +1,573 @@
-main.py[LINE:13]# DEBUG    [2019-07-02 13:11:06,830]  This is a debug message
-main.py[LINE:14]# INFO     [2019-07-02 13:11:06,830]  Informational message
-main.py[LINE:15]# ERROR    [2019-07-02 13:11:06,830]  An error has happened!
-_internal.py[LINE:122]# WARNING  [2019-07-02 13:11:06,878]   * Debugger is active!
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:06,879]   * Debugger PIN: 292-824-552
-view.py[LINE:27]# INFO     [2019-07-02 13:11:10,833]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:10,929]  127.0.0.1 - - [02/Jul/2019 13:11:10] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:11:10,943]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:10,950]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:10,959]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:10,960]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:10,960]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:10,963]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:10,964]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:10,965]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:10,970]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:10,970]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:10,970]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:10,974]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:10,974]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:10,974]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:10,978]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:10,978]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:10,978]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:10,983]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:10,983]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:10,983]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:10,988]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:10,989]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:10,989]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:10,993]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:10,994]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:10,996]  127.0.0.1 - - [02/Jul/2019 13:11:10] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:150]# INFO     [2019-07-02 13:11:15,735]  start PUT
-view.py[LINE:153]# INFO     [2019-07-02 13:11:15,743]  start put / id 11, args : math
-view.py[LINE:155]# INFO     [2019-07-02 13:11:15,744]  end PUT / deportment_one : math
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:15,758]  127.0.0.1 - - [02/Jul/2019 13:11:15] "PUT /department/11 HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:11:15,774]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:15,781]  127.0.0.1 - - [02/Jul/2019 13:11:15] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:11:15,795]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:15,801]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:15,808]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:15,808]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:15,808]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:15,815]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:15,816]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:15,816]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:15,822]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:15,823]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:15,823]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:15,829]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:15,830]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:15,830]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:15,837]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:15,837]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:15,838]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:15,843]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:15,843]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:15,843]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:15,848]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:15,848]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:15,848]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:15,856]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:15,857]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:15,859]  127.0.0.1 - - [02/Jul/2019 13:11:15] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:198]# INFO     [2019-07-02 13:11:26,346]  *-*-*-*-*-* start PUT (workers)*-*-*-*-*-*-*
-view.py[LINE:211]# INFO     [2019-07-02 13:11:26,358]  end PUT / worker_one : Archee
-view.py[LINE:216]# INFO     [2019-07-02 13:11:26,368]  *-*-*-*-*-* end PUT (workers)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:26,370]  127.0.0.1 - - [02/Jul/2019 13:11:26] "PUT /worker/13 HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:11:26,381]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:26,391]  127.0.0.1 - - [02/Jul/2019 13:11:26] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:11:26,403]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:26,408]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:26,412]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:26,412]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:26,412]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:26,417]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:26,417]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:26,417]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:26,422]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:26,422]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:26,422]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:26,426]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:26,426]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:26,427]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:26,430]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:26,430]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:26,430]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:26,434]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:26,434]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:26,434]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:26,438]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:26,438]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:26,438]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:26,441]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:26,441]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:26,443]  127.0.0.1 - - [02/Jul/2019 13:11:26] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:198]# INFO     [2019-07-02 13:11:51,239]  *-*-*-*-*-* start PUT (workers)*-*-*-*-*-*-*
-view.py[LINE:211]# INFO     [2019-07-02 13:11:51,246]  end PUT / worker_one : Zenaila
-view.py[LINE:216]# INFO     [2019-07-02 13:11:51,255]  *-*-*-*-*-* end PUT (workers)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:51,257]  127.0.0.1 - - [02/Jul/2019 13:11:51] "PUT /worker/7 HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:11:51,272]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:51,278]  127.0.0.1 - - [02/Jul/2019 13:11:51] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:11:51,295]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:51,307]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:51,312]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:51,312]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:51,312]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:51,318]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:51,318]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:51,319]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:51,322]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:51,322]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:51,322]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:51,326]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:51,326]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:51,326]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:51,330]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:51,330]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:51,331]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:51,336]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:51,336]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:51,336]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:51,341]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:51,341]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:11:51,341]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:11:51,344]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:11:51,345]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:11:51,346]  127.0.0.1 - - [02/Jul/2019 13:11:51] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:198]# INFO     [2019-07-02 13:12:10,081]  *-*-*-*-*-* start PUT (workers)*-*-*-*-*-*-*
-view.py[LINE:211]# INFO     [2019-07-02 13:12:10,090]  end PUT / worker_one : Zenaila
-view.py[LINE:216]# INFO     [2019-07-02 13:12:10,101]  *-*-*-*-*-* end PUT (workers)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:12:10,104]  127.0.0.1 - - [02/Jul/2019 13:12:10] "PUT /worker/7 HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:12:10,119]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:12:10,128]  127.0.0.1 - - [02/Jul/2019 13:12:10] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:12:10,141]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:12:10,146]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:12:10,154]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:12:10,154]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:12:10,154]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:12:10,159]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:12:10,159]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:12:10,160]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:12:10,163]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:12:10,163]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:12:10,163]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:12:10,171]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:12:10,171]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:12:10,171]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:12:10,175]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:12:10,175]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:12:10,175]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:12:10,178]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:12:10,178]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:12:10,179]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:12:10,182]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:12:10,182]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:12:10,182]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:12:10,187]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:12:10,187]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:12:10,189]  127.0.0.1 - - [02/Jul/2019 13:12:10] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:12:26,762]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:12:26,771]  127.0.0.1 - - [02/Jul/2019 13:12:26] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:12:26,795]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:63]# INFO     [2019-07-02 13:12:26,795]  *-*-*-*-*-*  use filter *-*-*-*-*-*-*
-view.py[LINE:64]# INFO     [2019-07-02 13:12:26,795]   - 1 if
-view.py[LINE:65]# INFO     [2019-07-02 13:12:26,795]  birthday_begin : 1992-01-01
-view.py[LINE:66]# INFO     [2019-07-02 13:12:26,795]  birthday_end : 1999-01-01
-view.py[LINE:118]# INFO     [2019-07-02 13:12:26,806]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:12:26,810]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:12:26,810]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:12:26,810]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:12:26,814]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:12:26,815]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:12:26,815]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:12:26,822]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:12:26,822]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:12:26,824]  127.0.0.1 - - [02/Jul/2019 13:12:26] "GET /worker?birthday_begin=1992-01-01&birthday_end=1999-01-01 HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:15:58,762]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:15:58,772]  127.0.0.1 - - [02/Jul/2019 13:15:58] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:15:58,790]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:63]# INFO     [2019-07-02 13:15:58,790]  *-*-*-*-*-*  use filter *-*-*-*-*-*-*
-view.py[LINE:64]# INFO     [2019-07-02 13:15:58,790]   - 1 if
-view.py[LINE:65]# INFO     [2019-07-02 13:15:58,790]  birthday_begin : 1992-01-01
-view.py[LINE:66]# INFO     [2019-07-02 13:15:58,790]  birthday_end : 1999-01-01
-view.py[LINE:118]# INFO     [2019-07-02 13:15:58,801]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:15:58,807]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:15:58,807]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:15:58,807]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:15:58,813]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:15:58,813]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:15:58,813]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:15:58,819]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:15:58,819]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:15:58,821]  127.0.0.1 - - [02/Jul/2019 13:15:58] "GET /worker?birthday_begin=1992-01-01&birthday_end=1999-01-01 HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:16:38,549]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:16:38,555]  127.0.0.1 - - [02/Jul/2019 13:16:38] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:16:38,570]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:16:38,578]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:16:38,583]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:16:38,584]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:16:38,585]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:16:38,591]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:16:38,591]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:16:38,591]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:16:38,599]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:16:38,599]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:16:38,600]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:16:38,605]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:16:38,605]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:16:38,605]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:16:38,609]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:16:38,609]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:16:38,609]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:16:38,617]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:16:38,617]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:16:38,618]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:16:38,623]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:16:38,623]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:16:38,623]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:16:38,629]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:16:38,630]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:16:38,631]  127.0.0.1 - - [02/Jul/2019 13:16:38] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:95]# INFO     [2019-07-02 13:17:09,612]  *-*-*-*-*-* start POST (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:97]# INFO     [2019-07-02 13:17:09,617]  start POST , args : Roman / 7 / 999 / 
-view.py[LINE:98]# INFO     [2019-07-02 13:17:09,617]  start POST , args : Roman
-view.py[LINE:100]# INFO     [2019-07-02 13:17:09,617]  end POST
-view.py[LINE:118]# INFO     [2019-07-02 13:17:09,632]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:09,642]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:09,643]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:17:09,647]  127.0.0.1 - - [02/Jul/2019 13:17:09] "POST /worker HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:17:09,657]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:17:09,667]  127.0.0.1 - - [02/Jul/2019 13:17:09] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:17:09,676]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:09,683]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:09,687]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:09,687]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:09,687]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:09,691]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:09,691]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:09,691]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:09,699]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:09,700]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:09,700]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:09,705]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:09,705]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:09,706]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:09,710]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:09,710]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:09,710]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:09,714]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:09,715]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:09,715]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:09,718]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:09,718]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:09,718]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:09,722]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:09,722]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:09,722]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:09,727]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:09,728]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:17:09,731]  127.0.0.1 - - [02/Jul/2019 13:17:09] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:95]# INFO     [2019-07-02 13:17:35,968]  *-*-*-*-*-* start POST (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:97]# INFO     [2019-07-02 13:17:35,970]  start POST , args : Petr / 7 / 777 / 
-view.py[LINE:98]# INFO     [2019-07-02 13:17:35,970]  start POST , args : Petr
-view.py[LINE:100]# INFO     [2019-07-02 13:17:35,970]  end POST
-view.py[LINE:118]# INFO     [2019-07-02 13:17:35,985]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:35,990]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:35,991]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:17:35,995]  127.0.0.1 - - [02/Jul/2019 13:17:35] "POST /worker HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:17:36,014]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:17:36,026]  127.0.0.1 - - [02/Jul/2019 13:17:36] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:17:36,042]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:36,052]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:36,057]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:36,057]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:36,057]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:36,062]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:36,063]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:36,063]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:36,073]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:36,074]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:36,074]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:36,082]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:36,082]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:36,082]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:36,088]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:36,088]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:36,088]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:36,092]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:36,093]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:36,093]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:36,100]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:36,101]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:36,101]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:36,106]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:36,106]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:36,106]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:36,112]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:36,112]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:17:36,113]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:17:36,116]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:17:36,117]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:17:36,118]  127.0.0.1 - - [02/Jul/2019 13:17:36] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:198]# INFO     [2019-07-02 13:18:09,895]  *-*-*-*-*-* start PUT (workers)*-*-*-*-*-*-*
-view.py[LINE:211]# INFO     [2019-07-02 13:18:09,907]  end PUT / worker_one : Galina
-view.py[LINE:216]# INFO     [2019-07-02 13:18:09,920]  *-*-*-*-*-* end PUT (workers)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:18:09,922]  127.0.0.1 - - [02/Jul/2019 13:18:09] "PUT /worker/3 HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:18:09,937]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:18:09,949]  127.0.0.1 - - [02/Jul/2019 13:18:09] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:18:09,960]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:18:09,970]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:18:09,974]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:18:09,974]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:18:09,975]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:18:09,980]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:18:09,981]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:18:09,981]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:18:09,985]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:18:09,985]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:18:09,985]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:18:09,989]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:18:09,989]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:18:09,989]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:18:09,995]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:18:09,995]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:18:09,995]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:18:10,000]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:18:10,000]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:18:10,000]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:18:10,003]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:18:10,004]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:18:10,004]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:18:10,007]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:18:10,007]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:18:10,007]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:18:10,013]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:18:10,013]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:18:10,013]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:18:10,017]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:18:10,017]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:18:10,019]  127.0.0.1 - - [02/Jul/2019 13:18:10] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:198]# INFO     [2019-07-02 13:24:18,964]  *-*-*-*-*-* start PUT (workers)*-*-*-*-*-*-*
-view.py[LINE:211]# INFO     [2019-07-02 13:24:18,980]  end PUT / worker_one : Galina
-view.py[LINE:216]# INFO     [2019-07-02 13:24:18,993]  *-*-*-*-*-* end PUT (workers)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:24:18,995]  127.0.0.1 - - [02/Jul/2019 13:24:18] "PUT /worker/3 HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:24:19,009]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:24:19,017]  127.0.0.1 - - [02/Jul/2019 13:24:19] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:24:19,033]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:24:19,042]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:24:19,049]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:24:19,049]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:24:19,050]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:24:19,057]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:24:19,057]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:24:19,057]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:24:19,063]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:24:19,064]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:24:19,064]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:24:19,067]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:24:19,068]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:24:19,068]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:24:19,076]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:24:19,076]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:24:19,077]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:24:19,082]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:24:19,082]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:24:19,082]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:24:19,089]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:24:19,089]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:24:19,089]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:24:19,095]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:24:19,095]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:24:19,095]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:24:19,101]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:24:19,102]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:24:19,102]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:24:19,108]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:24:19,108]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:24:19,112]  127.0.0.1 - - [02/Jul/2019 13:24:19] "GET /worker HTTP/1.1" 200 -
-view.py[LINE:27]# INFO     [2019-07-02 13:25:50,783]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:25:50,846]  127.0.0.1 - - [02/Jul/2019 13:25:50] "GET /department HTTP/1.1" 200 -
-view.py[LINE:59]# INFO     [2019-07-02 13:25:50,864]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:25:50,869]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:25:50,876]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:25:50,876]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:25:50,876]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:25:50,882]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:25:50,882]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:25:50,882]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:25:50,891]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:25:50,891]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:25:50,892]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:25:50,896]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:25:50,896]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:25:50,896]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:25:50,900]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:25:50,900]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:25:50,901]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:25:50,910]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:25:50,910]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:25:50,910]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:25:50,915]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:25:50,915]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:25:50,916]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:25:50,924]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:25:50,924]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:25:50,924]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:25:50,928]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:25:50,928]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-view.py[LINE:118]# INFO     [2019-07-02 13:25:50,928]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
-view.py[LINE:124]# INFO     [2019-07-02 13:25:50,931]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
-view.py[LINE:125]# INFO     [2019-07-02 13:25:50,932]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
-_internal.py[LINE:122]# INFO     [2019-07-02 13:25:50,935]  127.0.0.1 - - [02/Jul/2019 13:25:50] "GET /worker HTTP/1.1" 200 -
+main.py[LINE:13]# DEBUG    [2019-07-02 14:05:31,236]  This is a debug message
+main.py[LINE:14]# INFO     [2019-07-02 14:05:31,236]  Informational message
+main.py[LINE:15]# ERROR    [2019-07-02 14:05:31,236]  An error has happened!
+_internal.py[LINE:122]# WARNING  [2019-07-02 14:05:31,284]   * Debugger is active!
+_internal.py[LINE:122]# INFO     [2019-07-02 14:05:31,285]   * Debugger PIN: 292-824-552
+view.py[LINE:27]# INFO     [2019-07-02 14:05:46,993]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:05:47,240]  127.0.0.1 - - [02/Jul/2019 14:05:47] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:05:47,253]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:05:47,265]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:05:47,276]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:05:47,276]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:05:47,276]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:05:47,282]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:05:47,282]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:05:47,283]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:05:47,289]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:05:47,290]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:05:47,291]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:05:47,298]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:05:47,298]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:05:47,298]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:05:47,303]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:05:47,303]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:05:47,303]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:05:47,308]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:05:47,308]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:05:47,309]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:05:47,314]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:05:47,314]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:05:47,315]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:05:47,320]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:05:47,320]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:05:47,320]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:05:47,332]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:05:47,333]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:05:47,334]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:05:47,339]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:05:47,339]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:05:47,345]  127.0.0.1 - - [02/Jul/2019 14:05:47] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:37]# INFO     [2019-07-02 14:06:03,033]  *-*-*-*-*-* start POST (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:38]# INFO     [2019-07-02 14:06:03,034]  start POST
+view.py[LINE:41]# INFO     [2019-07-02 14:06:03,035]  start POST , args : mdr
+view.py[LINE:43]# INFO     [2019-07-02 14:06:03,035]  end POST
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:03,054]  127.0.0.1 - - [02/Jul/2019 14:06:03] "POST /department HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:06:03,069]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:03,083]  127.0.0.1 - - [02/Jul/2019 14:06:03] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:06:03,096]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:03,101]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:03,105]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:03,105]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:03,105]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:03,110]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:03,110]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:03,110]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:03,115]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:03,116]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:03,116]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:03,119]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:03,119]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:03,119]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:03,123]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:03,123]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:03,123]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:03,129]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:03,129]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:03,130]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:03,134]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:03,135]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:03,135]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:03,140]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:03,140]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:03,140]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:03,146]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:03,146]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:03,147]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:03,150]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:03,150]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:03,152]  127.0.0.1 - - [02/Jul/2019 14:06:03] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:95]# INFO     [2019-07-02 14:06:17,318]  *-*-*-*-*-* start POST (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:97]# INFO     [2019-07-02 14:06:17,319]  start POST , args : alexey / 3 / 600 / 
+view.py[LINE:98]# INFO     [2019-07-02 14:06:17,320]  start POST , args : alexey
+view.py[LINE:100]# INFO     [2019-07-02 14:06:17,320]  end POST
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,329]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,333]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,334]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:17,335]  127.0.0.1 - - [02/Jul/2019 14:06:17] "POST /worker HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:06:17,347]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:17,354]  127.0.0.1 - - [02/Jul/2019 14:06:17] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:06:17,366]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,372]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,378]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,379]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,379]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,383]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,383]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,383]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,390]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,390]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,391]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,398]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,398]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,399]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,402]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,402]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,403]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,406]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,406]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,406]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,410]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,410]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,411]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,415]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,415]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,415]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,418]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,418]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,419]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,422]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,422]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:17,422]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:17,426]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:17,426]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:17,428]  127.0.0.1 - - [02/Jul/2019 14:06:17] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:198]# INFO     [2019-07-02 14:06:26,954]  *-*-*-*-*-* start PUT (workers)*-*-*-*-*-*-*
+view.py[LINE:211]# INFO     [2019-07-02 14:06:26,964]  end PUT / worker_one : alexey
+view.py[LINE:216]# INFO     [2019-07-02 14:06:26,973]  *-*-*-*-*-* end PUT (workers)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:26,974]  127.0.0.1 - - [02/Jul/2019 14:06:26] "PUT /worker/16 HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:06:26,989]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:26,996]  127.0.0.1 - - [02/Jul/2019 14:06:26] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:06:27,010]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:27,016]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:27,021]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:27,021]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:27,021]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:27,026]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:27,027]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:27,027]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:27,035]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:27,035]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:27,036]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:27,040]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:27,041]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:27,041]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:27,045]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:27,045]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:27,045]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:27,049]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:27,050]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:27,050]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:27,054]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:27,054]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:27,054]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:27,058]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:27,058]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:27,058]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:27,063]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:27,063]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:27,063]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:27,071]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:27,071]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:27,071]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:27,075]  *-*-*-*-*-*  (id: 12, DeptName: mdr)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:27,076]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:27,078]  127.0.0.1 - - [02/Jul/2019 14:06:27] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:150]# INFO     [2019-07-02 14:06:36,465]  start PUT
+view.py[LINE:153]# INFO     [2019-07-02 14:06:36,474]  start put / id 12, args : MDR
+view.py[LINE:155]# INFO     [2019-07-02 14:06:36,474]  end PUT / deportment_one : MDR
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:36,486]  127.0.0.1 - - [02/Jul/2019 14:06:36] "PUT /department/12 HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:06:36,496]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:36,505]  127.0.0.1 - - [02/Jul/2019 14:06:36] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:06:36,515]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:36,520]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:36,523]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:36,523]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:36,523]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:36,527]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:36,528]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:36,528]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:36,532]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:36,532]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:36,532]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:36,536]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:36,536]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:36,537]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:36,541]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:36,541]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:36,541]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:36,545]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:36,545]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:36,545]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:36,550]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:36,550]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:36,550]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:36,554]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:36,554]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:36,554]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:36,558]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:36,558]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:36,558]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:36,563]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:36,564]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:36,564]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:36,568]  *-*-*-*-*-*  (id: 12, DeptName: MDR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:36,569]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:36,571]  127.0.0.1 - - [02/Jul/2019 14:06:36] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:137]# INFO     [2019-07-02 14:06:38,985]  start DELETE DEPT , id : 11
+view.py[LINE:140]# INFO     [2019-07-02 14:06:38,997]  save to db : 11
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:38,999]  127.0.0.1 - - [02/Jul/2019 14:06:38] "DELETE /department/11 HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:06:39,012]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:39,021]  127.0.0.1 - - [02/Jul/2019 14:06:39] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:06:39,035]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:39,041]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:39,049]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:39,049]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:39,050]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:39,053]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:39,054]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:39,054]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:39,057]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:39,057]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:39,057]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:39,061]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:39,061]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:39,061]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:39,067]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:39,067]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:39,067]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:39,071]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:39,071]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:39,071]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:39,074]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:39,074]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:39,074]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:39,082]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:39,082]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:39,082]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:39,087]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:39,087]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:39,087]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:39,091]  *-*-*-*-*-*  (id: 7, DeptName: analitik)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:39,091]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:39,092]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:39,098]  *-*-*-*-*-*  (id: 12, DeptName: MDR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:39,098]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:39,100]  127.0.0.1 - - [02/Jul/2019 14:06:39] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:137]# INFO     [2019-07-02 14:06:47,372]  start DELETE DEPT , id : 7
+view.py[LINE:140]# INFO     [2019-07-02 14:06:47,382]  save to db : 7
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:47,383]  127.0.0.1 - - [02/Jul/2019 14:06:47] "DELETE /department/7 HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:06:47,398]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:47,406]  127.0.0.1 - - [02/Jul/2019 14:06:47] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:06:47,420]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:47,425]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:47,430]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:47,430]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:47,430]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:47,435]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:47,435]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:47,435]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:47,439]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:47,443]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:47,444]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:47,444]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:47,448]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:47,448]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:47,448]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:47,452]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:47,452]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:47,452]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:47,456]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:47,456]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:47,456]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:47,460]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:47,461]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:47,461]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:47,464]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:06:47,468]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:06:47,471]  *-*-*-*-*-*  (id: 12, DeptName: MDR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:06:47,472]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:06:47,474]  127.0.0.1 - - [02/Jul/2019 14:06:47] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:198]# INFO     [2019-07-02 14:07:00,505]  *-*-*-*-*-* start PUT (workers)*-*-*-*-*-*-*
+view.py[LINE:211]# INFO     [2019-07-02 14:07:00,512]  end PUT / worker_one : Petr
+view.py[LINE:216]# INFO     [2019-07-02 14:07:00,522]  *-*-*-*-*-* end PUT (workers)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:07:00,524]  127.0.0.1 - - [02/Jul/2019 14:07:00] "PUT /worker/15 HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:07:00,534]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:07:00,545]  127.0.0.1 - - [02/Jul/2019 14:07:00] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:07:00,556]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:00,563]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:00,567]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:00,567]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:00,567]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:00,571]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:00,571]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:00,571]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:00,574]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:00,578]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:00,579]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:00,579]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:00,585]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:00,586]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:00,586]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:00,591]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:00,592]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:00,592]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:00,595]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:00,596]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:00,596]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:00,601]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:00,601]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:00,602]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:00,609]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:00,613]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:00,613]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:00,614]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:00,617]  *-*-*-*-*-*  (id: 12, DeptName: MDR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:00,617]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:07:00,619]  127.0.0.1 - - [02/Jul/2019 14:07:00] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:198]# INFO     [2019-07-02 14:07:07,101]  *-*-*-*-*-* start PUT (workers)*-*-*-*-*-*-*
+view.py[LINE:211]# INFO     [2019-07-02 14:07:07,112]  end PUT / worker_one : Roman
+view.py[LINE:216]# INFO     [2019-07-02 14:07:07,123]  *-*-*-*-*-* end PUT (workers)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:07:07,124]  127.0.0.1 - - [02/Jul/2019 14:07:07] "PUT /worker/14 HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:07:07,144]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:07:07,150]  127.0.0.1 - - [02/Jul/2019 14:07:07] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:07:07,164]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:07,181]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:07,189]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:07,190]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:07,190]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:07,197]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:07,198]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:07,198]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:07,205]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:07,212]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:07,212]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:07,212]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:07,216]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:07,217]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:07,217]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:07,224]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:07,224]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:07,224]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:07,231]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:07,232]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:07,232]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:07,236]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:07,236]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:07,237]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:07,245]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:07,245]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:07,246]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:07,253]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:07,254]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:07,254]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:07,260]  *-*-*-*-*-*  (id: 12, DeptName: MDR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:07,260]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:07:07,262]  127.0.0.1 - - [02/Jul/2019 14:07:07] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:198]# INFO     [2019-07-02 14:07:09,825]  *-*-*-*-*-* start PUT (workers)*-*-*-*-*-*-*
+view.py[LINE:211]# INFO     [2019-07-02 14:07:09,837]  end PUT / worker_one : Galina
+view.py[LINE:216]# INFO     [2019-07-02 14:07:09,850]  *-*-*-*-*-* end PUT (workers)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:07:09,854]  127.0.0.1 - - [02/Jul/2019 14:07:09] "PUT /worker/3 HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:07:09,870]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:07:09,877]  127.0.0.1 - - [02/Jul/2019 14:07:09] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:07:09,888]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:09,893]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:09,897]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:09,897]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:09,898]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:09,906]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:09,906]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:09,906]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:09,911]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:09,911]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:09,911]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:09,917]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:09,917]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:09,917]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:09,921]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:09,921]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:09,922]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:09,926]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:09,926]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:09,926]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:09,930]  *-*-*-*-*-*  (id: 4, DeptName: HR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:09,930]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:09,930]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:09,934]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:09,934]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:09,935]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:09,938]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:09,938]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:09,939]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:09,942]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:09,942]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:07:09,943]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:07:09,948]  *-*-*-*-*-*  (id: 12, DeptName: MDR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:07:09,949]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:07:09,952]  127.0.0.1 - - [02/Jul/2019 14:07:09] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:185]# INFO     [2019-07-02 14:12:25,619]  start DELETE WORKER , id : 12
+view.py[LINE:188]# INFO     [2019-07-02 14:12:25,644]  save to db : 12
+_internal.py[LINE:122]# INFO     [2019-07-02 14:12:25,645]  127.0.0.1 - - [02/Jul/2019 14:12:25] "DELETE /worker/12 HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:12:25,668]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:12:25,679]  127.0.0.1 - - [02/Jul/2019 14:12:25] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:12:25,699]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:25,708]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:25,715]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:25,716]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:25,716]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:25,723]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:25,723]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:25,723]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:25,727]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:25,727]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:25,727]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:25,732]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:25,733]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:25,733]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:25,737]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:25,737]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:25,738]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:25,741]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:25,741]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:25,742]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:25,748]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:25,748]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:25,748]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:25,753]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:25,753]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:25,753]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:25,756]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:25,757]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:25,757]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:25,760]  *-*-*-*-*-*  (id: 12, DeptName: MDR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:25,760]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:12:25,762]  127.0.0.1 - - [02/Jul/2019 14:12:25] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:198]# INFO     [2019-07-02 14:12:38,324]  *-*-*-*-*-* start PUT (workers)*-*-*-*-*-*-*
+view.py[LINE:211]# INFO     [2019-07-02 14:12:38,332]  end PUT / worker_one : Alexey
+view.py[LINE:216]# INFO     [2019-07-02 14:12:38,345]  *-*-*-*-*-* end PUT (workers)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:12:38,347]  127.0.0.1 - - [02/Jul/2019 14:12:38] "PUT /worker/16 HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:12:38,361]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:12:38,373]  127.0.0.1 - - [02/Jul/2019 14:12:38] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:12:38,386]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:38,393]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:38,400]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:38,400]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:38,401]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:38,405]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:38,405]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:38,405]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:38,408]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:38,409]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:38,409]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:38,412]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:38,412]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:38,413]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:38,416]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:38,416]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:38,416]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:38,420]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:38,420]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:38,420]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:38,423]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:38,423]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:38,424]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:38,427]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:38,427]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:38,427]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:38,431]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:38,431]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:12:38,431]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:12:38,436]  *-*-*-*-*-*  (id: 12, DeptName: MDR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:12:38,436]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:12:38,438]  127.0.0.1 - - [02/Jul/2019 14:12:38] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:15:38,920]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:15:38,926]  127.0.0.1 - - [02/Jul/2019 14:15:38] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:15:38,940]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:15:38,946]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:15:38,953]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:15:38,953]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:15:38,953]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:15:38,961]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:15:38,961]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:15:38,961]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:15:38,967]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:15:38,967]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:15:38,968]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:15:38,972]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:15:38,973]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:15:38,973]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:15:38,980]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:15:38,980]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:15:38,980]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:15:38,986]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:15:38,986]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:15:38,986]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:15:38,992]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:15:38,993]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:15:38,993]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:15:39,000]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:15:39,000]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:15:39,000]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:15:39,006]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:15:39,006]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:15:39,006]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:15:39,010]  *-*-*-*-*-*  (id: 12, DeptName: MDR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:15:39,010]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:15:39,012]  127.0.0.1 - - [02/Jul/2019 14:15:39] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:18:14,327]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:18:14,335]  127.0.0.1 - - [02/Jul/2019 14:18:14] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:18:14,349]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:14,355]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:14,359]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:14,360]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:14,360]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:14,367]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:14,367]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:14,368]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:14,372]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:14,372]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:14,372]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:14,378]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:14,378]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:14,379]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:14,382]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:14,383]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:14,383]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:14,388]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:14,388]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:14,388]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:14,394]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:14,394]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:14,394]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:14,398]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:14,398]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:14,398]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:14,402]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:14,402]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:14,402]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:14,406]  *-*-*-*-*-*  (id: 12, DeptName: MDR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:14,406]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:18:14,408]  127.0.0.1 - - [02/Jul/2019 14:18:14] "GET /worker HTTP/1.1" 200 -
+view.py[LINE:27]# INFO     [2019-07-02 14:18:54,506]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:18:54,517]  127.0.0.1 - - [02/Jul/2019 14:18:54] "GET /department HTTP/1.1" 200 -
+view.py[LINE:59]# INFO     [2019-07-02 14:18:54,530]  *-*-*-*-*-* start GET (workers_ LIST)*-*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:54,536]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:54,539]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:54,540]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:54,540]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:54,546]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:54,546]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:54,546]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:54,552]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:54,552]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:54,552]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:54,556]  *-*-*-*-*-*  (id: 3, DeptName: Manager)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:54,556]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:54,556]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:54,563]  *-*-*-*-*-*  (id: 5, DeptName: Developers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:54,563]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:54,563]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:54,568]  *-*-*-*-*-*  (id: 1, DeptName: administration)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:54,568]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:54,568]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:54,572]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:54,572]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:54,572]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:54,579]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:54,579]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:54,579]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:54,584]  *-*-*-*-*-*  (id: 2, DeptName: Testers)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:54,584]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+view.py[LINE:118]# INFO     [2019-07-02 14:18:54,584]  *-*-*-*-*-* start GET (Department  LIST)*-*-*-*-*-*-*
+view.py[LINE:124]# INFO     [2019-07-02 14:18:54,589]  *-*-*-*-*-*  (id: 12, DeptName: MDR)  *-*-*-*-*-*-*
+view.py[LINE:125]# INFO     [2019-07-02 14:18:54,589]  *-*-*-*-*-  department_id- good  -*-*-*-*-*-*
+_internal.py[LINE:122]# INFO     [2019-07-02 14:18:54,592]  127.0.0.1 - - [02/Jul/2019 14:18:54] "GET /worker HTTP/1.1" 200 -
